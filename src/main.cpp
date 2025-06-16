@@ -15,14 +15,14 @@ float Output[8] = {0,0,0,0,0,0,0,0};
 
 //P_FWR→Pポートの前転信号出力
 //P_REV→Pポートの後転信号出力
-PwmOut A_FWR(PA_7);
-PwmOut A_REV(PA_6);
-PwmOut B_FWR(PA_4);
-PwmOut B_REV(PA_5);
-PwmOut C_FWR(PA_8);
-PwmOut C_REV(PA_8);
-PwmOut D_FWR(PB_4);
-PwmOut D_REV(PB_5);
+PwmOut A_FWR(PA_3);
+PwmOut A_REV(PA_4);
+PwmOut B_FWR(PA_6);
+PwmOut B_REV(PA_7);
+PwmOut C_FWR(PA_10);
+PwmOut C_REV(PA_9);
+PwmOut D_FWR(PB_5);
+PwmOut D_REV(PB_4);
 
 //何かしらのCAN通信を受け取っている時に光らすLED
 DigitalOut Indicator(PB_1);

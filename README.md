@@ -1,1 +1,2 @@
 # SweetPotatoFirmWare
+古いほうのデータ
